@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://www.probsolvtech.agency/",
+    "priority": 1.0,
+    "updatedAt": "2025-12-01",
+    "seoTitle": "ProbSolv Tech Agency | Web Development, Custom Apps & AI Automation",
+    "seoDescription": "ProbSolv Tech Agency crafts high-performance websites, custom 'vibe coding' apps, and intelligent AI automations to scale your business."
+  },
+  {
+    "url": "https://www.probsolvtech.agency/services",
+    "priority": 0.8,
+    "updatedAt": "2025-12-01",
+    "seoTitle": "Our Services",
+    "seoDescription": "Explore our core services: Web Development, Vibe Coded Apps, and AI Business Automations."
+  },
+  {
+    "url": "https://www.probsolvtech.agency/pricing",
+    "priority": 0.8,
+    "updatedAt": "2025-12-01",
+    "seoTitle": "Pricing & Plans",
+    "seoDescription": "Transparent pricing for web development and AI automation services."
+  },
+  {
+    "url": "https://www.probsolvtech.agency/portfolio",
+    "priority": 0.8,
+    "updatedAt": "2025-12-01",
+    "seoTitle": "Our Portfolio",
+    "seoDescription": "See our latest work in web design, app development, and AI solutions."
+  },
+  {
+    "url": "https://www.probsolvtech.agency/about",
+    "priority": 0.8,
+    "updatedAt": "2025-12-01",
+    "seoTitle": "About Us",
+    "seoDescription": "Learn about ProbSolv Tech Agency, our mission, and our team."
+  },
+  {
+    "url": "https://www.probsolvtech.agency/contact",
+    "priority": 0.9,
+    "updatedAt": "2025-12-01",
+    "seoTitle": "Contact Us",
+    "seoDescription": "Get in touch with ProbSolv to start your next digital project."
+  },
+  {
+    "url": "https://www.probsolvtech.agency/blog",
+    "priority": 0.7,
+    "updatedAt": "2025-12-01",
+    "seoTitle": "Insights & Blog",
+    "seoDescription": "Read our latest thoughts on technology, design, and business automation."
+  },
+  {
+    "url": "https://www.probsolvtech.agency/brief",
+    "priority": 0.8,
+    "updatedAt": "2025-12-01",
+    "seoTitle": "Project Brief",
+    "seoDescription": "Submit a project brief to get a custom quote for your business needs."
+  }
+]
