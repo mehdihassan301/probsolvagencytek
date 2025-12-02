@@ -108,7 +108,7 @@ const HomePage: React.FC = () => {
           </div>
           <div className="animate-fade-in-up" style={{ animationDelay: '500ms', opacity: 0 }}>
             <h3 className="mt-6 max-w-3xl mx-auto text-xl sm:text-2xl md:text-3xl text-subtext_light dark:text-gray-300 drop-shadow-lg">
-              Scalable Intelligence for Modern Businesses-<span className="font-bold text-text_light dark:text-white">Effortlessly.</span>
+              Building Systems That Scale Your Business-<span className="font-bold text-text_light dark:text-white">Effortlessly.</span>
             </h3>
           </div>
           <div className="animate-fade-in-up mt-10 flex flex-col sm:flex-row items-center justify-center gap-4" style={{ animationDelay: '600ms', opacity: 0 }}>
@@ -116,13 +116,13 @@ const HomePage: React.FC = () => {
               onClick={() => navigate('/contact')}
               className="px-5 py-2.5 text-sm sm:px-6 sm:py-3 sm:text-base bg-primary text-white font-semibold rounded-lg hover:bg-purple-600 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-primary/30 w-full sm:w-auto"
             >
-              Launch your System
+              Get Started
             </button>
             <button
               onClick={() => navigate('/portfolio')}
               className="px-5 py-2.5 text-sm sm:px-6 sm:py-3 sm:text-base bg-surface_light/80 dark:bg-surface_dark/80 backdrop-blur-sm text-text_light dark:text-text_dark font-semibold rounded-lg hover:bg-surface_light dark:hover:bg-surface_dark transition-all duration-300 transform hover:scale-105 w-full sm:w-auto"
             >
-              What we offer
+              Discover More
             </button>
           </div>
         </div>
@@ -201,7 +201,7 @@ const HomePage: React.FC = () => {
                     <ul className="space-y-4 text-subtext_light dark:text-subtext_dark">
                         <li className="flex items-start gap-3">
                             <span className="text-red-500 mt-1 font-bold">✕</span>
-                            <span><strong>The "Everything Everywhere" Trap:</strong> Managing DMs, emails, and bookings across five different apps manually.</span>
+                            <span><strong>The "Everything Everywhere" Trap:</strong> Losing hours every day juggling emails, DMs, and bookings manually.</span>
                         </li>
                         <li className="flex items-start gap-3">
                             <span className="text-red-500 mt-1 font-bold">✕</span>
@@ -219,15 +219,15 @@ const HomePage: React.FC = () => {
                     <ul className="space-y-4 text-text_light dark:text-text_dark">
                         <li className="flex items-start gap-3">
                             <span className="text-green-500 font-bold mt-1">✓</span>
-                            <span><strong>24/7 AI Operations:</strong> Intelligent Agents that handle support, qualification, and scheduling automatically.</span>
+                            <span><strong>24/7 AI Operations:</strong> Intelligent Agents that handle support, Leads qualification, and scheduling automatically.</span>
                         </li>
                         <li className="flex items-start gap-3">
                             <span className="text-green-500 font-bold mt-1">✓</span>
-                            <span><strong>Vibe-Coded Authority:</strong> A bespoke digital experience designed to captivate your audience and convert instantly.</span>
+                            <span><strong>Vibe-Coded Authority:</strong> A bespoke Vibe-Coded digital experience that increase engagement and convert instantly.</span>
                         </li>
                         <li className="flex items-start gap-3">
                             <span className="text-green-500 font-bold mt-1">✓</span>
-                            <span><strong>Systematized Growth:</strong> Automated workflows that run your business logic, allowing infinite scaling.</span>
+                            <span><strong>Systematized Growth:</strong> Automated workflows that let your business scale infinitely and grow revenue.</span>
                         </li>
                     </ul>
                 </div>
@@ -311,7 +311,7 @@ const HomePage: React.FC = () => {
                     <h2 className="font-heading text-3xl sm:text-4xl font-extrabold text-white">Ready to Build Something Powerful?</h2>
                     <p className="mt-4 max-w-xl mx-auto text-white/80 text-lg">Tell us your idea and we’ll turn it into a scalable digital system.</p>
                     <button onClick={() => navigate('/contact')} className="mt-8 px-5 py-2.5 text-sm sm:px-6 sm:py-3 sm:text-base bg-white text-primary font-semibold rounded-lg hover:bg-gray-200 transition-all duration-300 transform hover:scale-105">
-                        Start Your Project
+                        Get Tranformation
                     </button>
                 </div>
             </div>
