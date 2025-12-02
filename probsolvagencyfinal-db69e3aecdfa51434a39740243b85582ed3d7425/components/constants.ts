@@ -274,7 +274,7 @@ export const blogPosts: Post[] = [
         id: 'why-vibe-matters',
         title: 'Beyond the Pixels: Why "Vibe" is the Most Underrated Metric in App Development',
         author: 'Alex Chen',
-        date: 'October 26, 2023',
+        date: 'October 26, 2025',
         category: 'Vibe Coded Apps',
         image: '/images/blog/why-vibe-matters.jpg',
         excerpt: 'In a saturated app market, functionality is just the ticket to entry. The real differentiator? Vibe. We explore how aesthetic-driven design and micro-interactions create memorable experiences that build lasting brand loyalty.',
@@ -288,14 +288,14 @@ export const blogPosts: Post[] = [
                 <li><strong>Higher Perceived Value:</strong> A polished, premium feel allows for better pricing power.</li>
                 <li><strong>Stronger Brand Recall:</strong> A unique vibe makes your app unforgettable in a sea of competitors.</li>
             </ul>
-            <p>At ProbSolv, we call this "Vibe-Coding." It's a philosophy that places the user's emotional journey at the forefront of the development process. We obsess over the details—from haptic feedback to loading screen animations—to ensure your app doesn't just function flawlessly, but also feels incredible to use. In a world of fleeting digital trends, a strong vibe is what creates a classic.</p>
+            <p>"Vibe-Coding" is a philosophy that places the user's emotional journey at the forefront of the development process. We obsess over the details—from haptic feedback to loading screen animations—to ensure your app doesn't just function flawlessly, but also feels incredible to use. In a world of fleeting digital trends, a strong vibe is what creates a classic.</p>
         `
     },
     {
         id: 'ai-is-eating-the-world',
         title: 'Your New Hardest-Working Employee is an AI: A Guide to Business Automation',
         author: 'Samantha Riley',
-        date: 'October 22, 2023',
+        date: 'November 22, 2025',
         category: 'AI Automations',
         image: '/images/blog/ai-is-eating-the-world.jpg',
         excerpt: 'Repetitive tasks are draining your team\'s potential. We break down how custom AI assistants and automated workflows can handle the grunt work, freeing up your human talent to focus on innovation and growth.',
@@ -314,9 +314,9 @@ export const blogPosts: Post[] = [
     },
     {
         id: 'future-of-web',
-        title: 'Is Your Website Ready for 2024? 5 Tech Trends You Can\'t Ignore',
+        title: 'Is Your Website Ready for 2026? 5 Tech Trends You Can\'t Ignore',
         author: 'David Chen',
-        date: 'October 18, 2023',
+        date: 'October 18, 2025',
         category: 'Web Development',
         image: '/images/blog/future-of-web.jpg',
         excerpt: 'The web is evolving faster than ever. From server-side rendering to the rise of edge computing, we cover the essential web development trends that will define the next year and how to leverage them for a faster, more secure online presence.',
@@ -349,7 +349,7 @@ export const jobOpenings: Job[] = [
             'Mentor junior developers and contribute to our team\'s best practices.'
         ],
         qualifications: [
-            '5+ years of professional experience in frontend development.',
+            'Professional experience in frontend development.',
             'Expertise in React, TypeScript, HTML5, and CSS3.',
             'Strong understanding of UI/UX design principles.',
             'Experience with performance optimization techniques.',
@@ -370,7 +370,7 @@ export const jobOpenings: Job[] = [
             'Stay up-to-date with the latest advancements in AI and machine learning.'
         ],
         qualifications: [
-            '3+ years of experience in a similar AI/ML role.',
+            'Experience in a similar AI/ML role.',
             'Proficiency in Python and machine learning frameworks (e.g., TensorFlow, PyTorch).',
             'Experience with cloud platforms (GCP, AWS, Azure).',
             'Strong background in algorithms, data structures, and statistical modeling.',
