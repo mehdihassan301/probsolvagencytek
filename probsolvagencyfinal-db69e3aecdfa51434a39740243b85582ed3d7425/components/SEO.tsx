@@ -18,40 +18,31 @@ const SEO: React.FC<SEOProps> = ({
 }) => {
   const siteUrl = 'https://www.probsolvtech.agency';
   const fullCanonical = canonical ? (canonical.startsWith('https') ? canonical : `${siteUrl}${canonical}`) : siteUrl;
-  const fullTitle = `${title} | ProbSolv Tech Agency`;
+  const fullTitle = `ProbSolv Tech Agency — ${title}`;
 
-  useEffect(() => {
-    // Update Document Title
-    document.title = fullTitle;
+useEffect(() => {
+  document.title = fullTitle;
 
-    // Helper function to safely update or create meta/link tags
-    const updateTag = (selector: string, attribute: string, value: string, tagName: string = 'meta', createAttrs: Record<string, string> = {}) => {
-      let element = document.querySelector(selector);
-      if (!element) {
-        element = document.createElement(tagName);
-        Object.entries(createAttrs).forEach(([k, v]) => element?.setAttribute(k, v));
-        document.head.appendChild(element);
-      }
-      element.setAttribute(attribute, value);
-    };
+  const updateTag = (selector, attribute, value, tagName = 'meta', createAttrs = {}) => {
+    let element = document.querySelector(selector);
+    if (!element) {
+      element = document.createElement(tagName);
+      Object.entries(createAttrs).forEach(([k, v]) => element.setAttribute(k, v));
+      document.head.appendChild(element);
+    }
+    element.setAttribute(attribute, value);
+  };
+  updateTag('meta[name="description"]', 'content', description, 'meta', { name: 'description' });
+  updateTag('link[rel="canonical"]', 'href', fullCanonical, 'link', { rel: 'canonical' });
+  updateTag('meta[property="og:type"]', 'content', type, 'meta', { property: 'og:type' });
+  updateTag('meta[property="og:title"]', 'content', fullTitle, 'meta', { property: 'og:title' });
+  updateTag('meta[property="og:description"]', 'content', description, 'meta', { property: 'og:description' });
+  updateTag('meta[property="og:url"]', 'content', fullCanonical, 'meta', { property: 'og:url' });
+  updateTag('meta[property="og:image"]', 'content', image, 'meta', { property: 'og:image' });
 
-    // Standard Meta
-    updateTag('meta[name="title"]', 'content', description, 'meta', { name: 'description' });
-    updateTag('link[rel="canonical"]', 'href', fullCanonical, 'link', { rel: 'canonical' });
-
-    // Open Graph
-    updateTag('meta[property="og:type"]', 'content', type, 'meta', { property: 'og:type' });
-    updateTag('meta[property="og:title"]', 'content', fullTitle, 'meta', { property: 'og:title' });
-    updateTag('meta[property="og:description"]', 'content', description, 'meta', { property: 'og:description' });
-    updateTag('meta[property="og:url"]', 'content', fullCanonical, 'meta', { property: 'og:url' });
-    updateTag('meta[property="og:image"]', 'content', image, 'meta', { property: 'og:image' });
-
-    // Twitter
-    updateTag('meta[name="twitter:title"]', 'content', fullTitle, 'meta', { name: 'twitter:title' });
-    updateTag('meta[name="twitter:description"]', 'content', description, 'meta', { name: 'twitter:description' });
-    updateTag('meta[name="twitter:image"]', 'content', image, 'meta', { name: 'twitter:image' });
-
-  }, [title, description, fullCanonical, type, image, fullTitle]);
+  updateTag('meta[name="twitter:title"]', 'content', fullTitle, 'meta', { name: 'twitter:title' });
+  updateTag('meta[name="twitter:description"]', 'content', description, 'meta', { name: 'twitter:description' });
+  updateTag('meta[name="twitter:image"]', 'content', image, 'meta', { name: 'twitter:image' });
 
   return null;
 };
