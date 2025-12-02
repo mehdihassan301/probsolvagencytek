@@ -18,7 +18,7 @@ const SEO: React.FC<SEOProps> = ({
 }) => {
   const siteUrl = 'https://www.probsolvtech.agency';
   const fullCanonical = canonical ? (canonical.startsWith('https') ? canonical : `${siteUrl}${canonical}`) : siteUrl;
-  const fullTitle = `ProbSolv Tech Agency — ${title}`;
+const fullTitle = `ProbSolv Tech Agency — ${title}`;
 
 useEffect(() => {
   document.title = fullTitle;
@@ -32,8 +32,12 @@ useEffect(() => {
     }
     element.setAttribute(attribute, value);
   };
+
+  // Correct meta description
   updateTag('meta[name="description"]', 'content', description, 'meta', { name: 'description' });
+
   updateTag('link[rel="canonical"]', 'href', fullCanonical, 'link', { rel: 'canonical' });
+
   updateTag('meta[property="og:type"]', 'content', type, 'meta', { property: 'og:type' });
   updateTag('meta[property="og:title"]', 'content', fullTitle, 'meta', { property: 'og:title' });
   updateTag('meta[property="og:description"]', 'content', description, 'meta', { property: 'og:description' });
@@ -43,6 +47,9 @@ useEffect(() => {
   updateTag('meta[name="twitter:title"]', 'content', fullTitle, 'meta', { name: 'twitter:title' });
   updateTag('meta[name="twitter:description"]', 'content', description, 'meta', { name: 'twitter:description' });
   updateTag('meta[name="twitter:image"]', 'content', image, 'meta', { name: 'twitter:image' });
+
+}, [title, description, fullCanonical, type, image, fullTitle]);
+
 
   return null;
 };
