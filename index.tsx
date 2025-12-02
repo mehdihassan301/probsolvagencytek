@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
+import { inject } from '@vercel/analytics';
 import App from './probsolvagencyfinal-db69e3aecdfa51434a39740243b85582ed3d7425/App';
 
 const rootElement = document.getElementById('root');
@@ -33,6 +34,9 @@ const getBasename = () => {
   // Default to root for production (probsolvtech.agency)
   return '/';
 };
+
+// Initialize Vercel Web Analytics
+inject();
 
 const root = ReactDOM.createRoot(rootElement);
 root.render(
