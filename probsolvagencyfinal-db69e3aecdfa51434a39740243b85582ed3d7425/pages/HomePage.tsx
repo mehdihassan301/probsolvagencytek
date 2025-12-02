@@ -98,7 +98,7 @@ const HomePage: React.FC = () => {
           </div>
           <div className="animate-fade-in-up" style={{ animationDelay: '400ms', opacity: 0 }}>
             <h2 className="mt-4 text-lg sm:text-xl md:text-2xl font-semibold text-teal-600 drop-shadow-[0_0_8px_rgba(13,148,136,0.4)] dark:text-accent dark:drop-shadow-[0_0_10px_rgba(106,235,255,0.7)] tracking-wide">
-              <span>Web Development • Vibe Coded Apps</span>
+              <span>Web Development • Vibe Apps</span>
               <span className="block sm:inline mt-2 sm:mt-0">
                 <span className="hidden sm:inline mx-2">•</span>
                 <span className="sm:hidden">• </span>
