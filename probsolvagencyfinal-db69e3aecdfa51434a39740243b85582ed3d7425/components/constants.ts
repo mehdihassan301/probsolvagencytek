@@ -40,7 +40,7 @@ export const serviceDetails: Service[] = [
       { step: 'Experience QA', description: 'We test not just for bugs, but for the overall feeling and emotional impact of the application.' },
     ],
     deliverables: ['Custom Mobile/Web App', 'Brand Style Guide', 'UI Kit', 'Interactive Prototypes', 'Source Code'],
-    timeframe: '3-4 Weeks',
+    timeframe: '3-4 Weeks/varies',
     benefits: ['Stronger Brand Loyalty', 'Higher User Engagement Rates', 'Differentiation in Crowded Markets', 'Memorable User Experience'],
     whyUs: [
         { title: 'Aesthetic First', description: 'We believe great design and a strong vibe are non-negotiable for modern applications.' },
@@ -63,7 +63,7 @@ export const serviceDetails: Service[] = [
       { step: 'Monitoring & Optimization', description: 'We continuously monitor the AI\'s performance and optimize it for better accuracy and efficiency over time.' },
     ],
     deliverables: ['Custom AI Chatbot/Assistant', 'Workflow Automation Scripts', 'Integration Documentation', 'Performance Dashboard', 'Support & Maintenance Plan'],
-    timeframe: '2-5 Weeks',
+    timeframe: 'Custom',
     benefits: ['24/7 Customer Support', 'Significant Cost Reduction', 'Increased Operational Efficiency', 'Data-Driven Insights'],
     whyUs: [
         { title: 'Practical AI Solutions', description: 'We focus on building AI tools that solve real-world business problems and deliver measurable results.' },
@@ -223,7 +223,7 @@ export const portfolioItems: PortfolioItem[] = [
             }
         ],
         results: [
-            { metric: "Investor Funding", value: "$1.5M", description: "The professional branding and polished UI prototype were instrumental in helping the startup secure $1.5M in seed funding." },
+            { metric: "Investor Funding", value: "1.5M", description: "The professional branding and polished UI prototype were instrumental in helping the startup secure $1.5M in seed funding." },
             { metric: "Design Handoff", value: "Seamless", description: "The detailed design system allowed their in-house development team to implement the UI with pixel-perfect accuracy." },
             { metric: "Brand Perception", value: "Trustworthy", description: "User feedback consistently highlighted the brand's trustworthy and professional appearance, a key factor in fintech." }
         ],
@@ -263,7 +263,7 @@ export const portfolioItems: PortfolioItem[] = [
 ];
 
 export const testimonials = [
-    { name: 'Sarah L.', role: 'CEO, Innovate Co.', message: 'ProbSolv transformed our online presence. Their attention to detail and modern design sense is unparalleled. Our new website is fast, beautiful, and generating more leads than ever.', stars: 5 },
+    { name: 'Sarah L.', role: 'CEO, Innovate Co.', message: 'ProbSolv transformed our online presence. Their attention to detail and modern design sense is unparalleled. Our new website is fast, beautiful, and generating leads more than 30%.', stars: 5 },
     { name: 'Michael B.', role: 'Founder, TechStream', message: 'The AI chatbot they built for us has cut down our support tickets by 40%. It\'s incredibly smart and has freed up our team to focus on bigger issues. A total game-changer.', stars: 5 },
     { name: 'Jessica T.', role: 'Creative Director, Aura Studios', message: 'I\'ve never worked with a team that understood our "vibe" so perfectly. The app they delivered is not just functional, it\'s a work of art that our users absolutely love.', stars: 5 },
     { name: 'David R.', role: 'CTO, DataFlow', message: 'Professional, efficient, and highly skilled. The ProbSolv team delivered our project on time and exceeded all our expectations. We will definitely be working with them again.', stars: 5 },
@@ -281,7 +281,7 @@ export const blogPosts: Post[] = [
         content: `
             <p class="mb-6">In today's digital landscape, users have endless choices. An app that simply "works" is no longer enough. To capture attention and retain users, you need to create an experience that resonates on an emotional level. This is where "vibe" comes in.</p>
             <h3 class="text-2xl font-bold mb-4">What Exactly is "Vibe"?</h3>
-            <p class="mb-6">Vibe is the intangible feeling your application evokes. It's a combination of your UI design, the smoothness of animations, the satisfaction of a button click, and the overall personality that shines through. It’s not just about looking good; it's about feeling right. A well-defined vibe turns a transactional tool into a delightful experience.</p>
+            <p class="mb-6">Vibe is the intangible feeling your application evokes. It's a combination of your UI design, the smoothness of animations, the satisfaction of a button click, and the overall personality that shines through. It’s not just about looking good; it's about feeling right. A well-defined vibe turns a transactional tool into a delightful and conversion experience.</p>
             <h3 class="text-2xl font-bold mb-4">The ROI of Great Aesthetics</h3>
             <ul class="list-disc list-inside mb-6 space-y-2">
                 <li><strong>Increased Engagement:</strong> Users spend more time in apps they enjoy using.</li>
@@ -339,7 +339,7 @@ export const jobOpenings: Job[] = [
         id: 'frontend-engineer',
         title: 'Senior Frontend Engineer',
         location: 'Remote',
-        type: 'Full-time',
+        type: 'Time-Varies',
         description: 'We are looking for a passionate Senior Frontend Engineer to build beautiful, high-performance user interfaces. You will work with modern technologies to create aesthetic-driven apps and websites that our clients and their users love.',
         responsibilities: [
             'Develop and maintain user-facing features using React and TypeScript.',
@@ -360,8 +360,8 @@ export const jobOpenings: Job[] = [
         id: 'ai-engineer',
         title: 'AI/ML Engineer',
         location: 'Remote',
-        type: 'Full-time',
-        description: 'Join our AI team to build intelligent automation solutions that solve real-world business problems. You will design, develop, and deploy machine learning models and AI-powered systems for our diverse range of clients.',
+        type: 'Time-Varies',
+        description: 'Join our AI team to build intelligent automation solutions that solve real-world business problems.  Design, develop, and deploy machine learning models and AI-powered systems for our diverse range of clients.',
         responsibilities: [
             'Design and implement machine learning models for tasks like NLP, computer vision, and predictive analytics.',
             'Develop and integrate custom AI solutions, including chatbots and internal assistants.',
@@ -403,8 +403,8 @@ export const jobOpenings: Job[] = [
 export const pricingTiers: PricingTier[] = [
   {
     name: 'Launch',
-    price: '$150',
-    originalPrice: '$500',
+    price: '$149',
+    originalPrice: '$499',
     discount: '70% OFF (Left 13 Spots)',
     description: 'Perfect for startups needing a professional, high-converting online presence quickly.',
     features: [
@@ -420,8 +420,8 @@ export const pricingTiers: PricingTier[] = [
   },
   {
     name: 'Growth',
-    price: '$250',
-    originalPrice: '$750',
+    price: '$240',
+    originalPrice: '$790',
     discount: '67% OFF (Left 3 Spots)',
     description: 'Ideal for growing businesses ready to scale with a multi-page, feature-rich website.',
     features: [
