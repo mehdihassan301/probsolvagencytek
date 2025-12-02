@@ -170,19 +170,19 @@ const VisibilityPage: React.FC<VisibilityPageProps> = ({ setPage }) => {
       title: 'Web Designing',
       icon: WebDevIcon,
       description: 'A stunning, responsive landing page or 3-page site designed to convert visitors into customers.',
-      value: '$1,500 Value'
+      value: '$500 Value'
     },
     {
       title: 'AI Chatbot Integration',
       icon: AIIcon,
       description: 'A smart assistant embedded on your site to answer FAQs and capture leads 24/7.',
-      value: '$2,000 Value'
+      value: '$500 Value'
     },
     {
       title: 'Vibe Code App',
       icon: VibeCodeIcon,
       description: 'A bespoke mini-app or interactive component focused on aesthetic and user engagement.',
-      value: '$3,000 Value'
+      value: '$1,000 Value'
     }
   ];
 
@@ -192,19 +192,19 @@ const VisibilityPage: React.FC<VisibilityPageProps> = ({ setPage }) => {
       {/* Hero */}
       <div className="text-center max-w-4xl mx-auto mb-16 animate-fade-in-up">
         <div className="inline-block mb-4 px-4 py-1 rounded-full bg-red-500/10 border border-red-500/30 text-red-500 font-bold text-sm animate-pulse">
-          Offer Ends December 1st
+          Offer Ends December 15th
         </div>
         <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl font-extrabold text-text_light dark:text-white leading-tight">
           Get Visibility Now.<br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Zero Development Cost.</span>
         </h1>
         <p className="mt-6 text-lg sm:text-xl text-subtext_light dark:text-subtext_dark max-w-2xl mx-auto">
-          We are waiving 100% of our agency fees for the first 50 partners. You get premium tech; we get your honest feedback to grow.
+          We are waiving 100% of our agency fees for the first 25 partners. You get premium tech; we get your honest feedback to grow.
         </p>
         
         <div className="mt-8 flex justify-center items-center gap-2 text-sm font-semibold text-text_light dark:text-text_dark">
             <ZapIcon className="w-5 h-5 text-yellow-400" />
-            <span>Limited to 50 Spots</span>
+            <span>Limited to 25 Spots</span>
         </div>
       </div>
 
