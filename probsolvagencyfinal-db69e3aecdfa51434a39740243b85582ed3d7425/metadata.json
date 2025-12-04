@@ -1,5 +1,65 @@
 {
   "name": "ProbSolv Tech Agency",
-  "description": "ProbSolv Tech Agency crafts high-performance websites, custom 'vibe coding' apps, and intelligent AI automations to scale your business.",
+  "title": "ProbSolv Tech Agency — Modern Web Development, Vibe-Coded Apps & AI Automations",
+  "description": "We deliver modern web development, AI voice agents, automated systems, and scalable digital solutions that help companies grow faster with less manual work.",
+  "keywords": [
+    "web development",
+    "vibe coded apps",
+    "AI automation",
+    "AI voice agents",
+    "digital products",
+    "business automation",
+    "automation systems",
+    "modern websites",
+    "Pakistan tech agency",
+    "ProbSolv"
+  ],
+  "canonical": "https://www.probsolvtech.agency",
+
+  "openGraph": {
+    "title": "ProbSolv Tech Agency — Modern Web Development, Vibe-Coded Apps & AI Automations",
+    "description": "ProbSolv Tech Agency builds modern websites, vibe coded apps, and AI automation systems for global businesses.",
+    "url": "https://www.probsolvtech.agency",
+    "type": "organization",
+    "site_name": "ProbSolv Tech Agency",
+    "image": "https://www.probsolvtech.agency/ptechagency.png"
+  },
+
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "ProbSolv Tech Agency — Web Development, Vibe-Coded Apps & AI Automations",
+    "description": "High-performance websites, vibe-coded apps, AI voice agents, and automated systems that scale your business.",
+    "image": "https://www.probsolv.online/ptech.agency"
+  },
+
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "ProbSolv Tech Agency",
+    "url": "https://www.probsolvtech.agency",
+    "logo": "https://www.probsolv.online/favicon.ico",
+    "description": "ProbSolv Tech Agency builds high-performance websites, vibe-coded digital products, and advanced AI automations for businesses.",
+    "founder": {
+      "@type": "Founder",
+      "name": "Mehdi Hassan"
+    },
+    "sameAs": [
+      "https://www.instagram.com/",
+      "https://www.facebook.com/profile.php?id=61583427701047",
+      "https://wa.me/923272583013"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Islamabad",
+      "addressRegion": "FATA",
+      "addressCountry": "PK"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+923272583013",
+      "contactType": "customer service",
+      "availableLanguage": ["English"]
+    }
+  }
   "requestFramePermissions": []
 }
