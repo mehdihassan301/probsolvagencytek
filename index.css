@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* -------------------------
+   Global Styles
+-------------------------- */
+body { @apply bg-bg_light text-text_light dark:bg-bg_dark dark:text-text_dark; }
+.container { @apply mx-auto px-4 md:px-6 lg:px-10; }
+.section { @apply py-16 md:py-24; }
+h1 { @apply text-4xl md:text-6xl font-extrabold leading-tight; }
+h2 { @apply text-3xl md:text-5xl font-bold leading-snug; }
+h3 { @apply text-2xl md:text-4xl font-semibold; }
+p { @apply text-base md:text-lg text-subtext_light dark:text-subtext_dark; }
+
+/* -------------------------
+   Buttons
+-------------------------- */
+.btn-outline { @apply px-6 py-3 rounded-xl font-semibold border border-white text-white transition duration-300; }
+.btn-outline:hover { @apply bg-white text-black; }
+
+/* -------------------------
+   Cards
+-------------------------- */
+.card { @apply bg-[#15131c] p-6 md:p-8 rounded-2xl border border-white/10 transition; }
+.card:hover { @apply border-white/20 scale-[1.02]; }
+
+/* -------------------------
+   Footer
+-------------------------- */
+.footer { @apply py-10 border-t border-white/10 bg-[#0b0913]; }
+.footer-title { @apply font-semibold mb-3 text-lg; }
+
+/* -------------------------
+   Forms
+-------------------------- */
+.input { @apply w-full px-4 py-3 rounded-xl bg-[#1a1721] text-white border border-white/10 focus:border-[#7b3ef0] focus:outline-none transition; }
+
+/* -------------------------
+   Animations
+-------------------------- */
+.fade-in { animation: fadeIn 0.8s ease-in-out forwards; }
+@keyframes fadeIn { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:translateY(0); } }
+.slide-up { animation: slideUp 1s ease forwards; }
+@keyframes slideUp { from { opacity:0; transform:translateY(20px); } to { opacity:1; transform:translateY(0); } }
+.animate-glow { animation: glow 3.5s ease-in-out infinite; }
+@keyframes glow { 0%,100% { text-shadow:0 0 8px var(--color-primary),0 0 16px var(--color-primary); opacity:.8; } 50% { text-shadow:0 0 16px var(--color-primary),0 0 32px var(--color-primary),0 0 40px var(--color-accent); opacity:1; } }
+
+/* -------------------------
+   Dark / Light Theme Variables
+-------------------------- */
+:root { --color-primary:#7B3EF0; --color-accent:#6AEBFF; --color-surface-dark:#131219; --color-surface-light:#FFFFFF; }
+
+/* -------------------------
+   Responsive Header / Mobile Menu
+-------------------------- */
+@media (max-width:960px){
+  .premium-header-nav, .premium-header-cta { display:none; }
+  .premium-header-hamburger { display:flex; }
+  .premium-header-mobile-menu { display:flex; }
+  .premium-header-container { width:90%; }
+}
