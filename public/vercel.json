@@ -1,5 +1,22 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "redirects": [
+    {
+      "source": "https://www.probsolvtech.agency/:path*",
+      "destination": "https://probsolvtech.agency/:path*",
+      "permanent": true
+    },
+    {
+      "source": "http://www.probsolvtech.agency/:path*",
+      "destination": "https://probsolvtech.agency/:path*",
+      "permanent": true
+    },
+    {
+      "source": "http://probsolvtech.agency/:path*",
+      "destination": "https://probsolvtech.agency/:path*",
+      "permanent": true
+    }
   ]
 }
