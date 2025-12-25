@@ -418,7 +418,7 @@ export const pricingTiers: PricingTier[] = [
   },
   {
     name: 'Growth',
-    price: '320',
+    price: '$320',
     description: 'Ideal for growing businesses ready to scale with a multi-page, feature-rich website.',
     features: [
       'Up to 10 Custom Pages',
