@@ -404,8 +404,6 @@ export const pricingTiers: PricingTier[] = [
   {
     name: 'Launch',
     price: '$149',
-    originalPrice: '$499',
-    discount: '70% OFF (Left 13 Spots)',
     description: 'Perfect for startups needing a professional, high-converting online presence quickly.',
     features: [
       'Custom Landing Page',
@@ -415,14 +413,12 @@ export const pricingTiers: PricingTier[] = [
       'SEO Setup',
       '3 Rounds of Revisions',
     ],
-    delivery: '2-3 Weeks',
+    delivery: '1-3 Weeks',
     cta: 'Start Project'
   },
   {
     name: 'Growth',
-    price: '$240',
-    originalPrice: '$790',
-    discount: '67% OFF (Left 3 Spots)',
+    price: '320',
     description: 'Ideal for growing businesses ready to scale with a multi-page, feature-rich website.',
     features: [
       'Up to 10 Custom Pages',
