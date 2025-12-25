@@ -403,7 +403,7 @@ export const jobOpenings: Job[] = [
 export const pricingTiers: PricingTier[] = [
   {
     name: 'Launch',
-    price: '$149',
+    originalPrice: '$149',
     description: 'Perfect for startups needing a professional, high-converting online presence quickly.',
     features: [
       'Custom Landing Page',
@@ -418,7 +418,7 @@ export const pricingTiers: PricingTier[] = [
   },
   {
     name: 'Growth',
-    price: '$320',
+    originalPrice: '$320',
     description: 'Ideal for growing businesses ready to scale with a multi-page, feature-rich website.',
     features: [
       'Up to 10 Custom Pages',
