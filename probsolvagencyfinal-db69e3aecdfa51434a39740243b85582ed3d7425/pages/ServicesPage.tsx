@@ -381,7 +381,7 @@ const ServicesPage: React.FC<ServicesPageProps> = ({ setPage }) => {
             <div className="relative z-10">
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/20 text-primary dark:text-accent font-bold text-xs uppercase tracking-wider mb-4">
                     <SparklesIcon className="w-4 h-4" />
-                    <span>Limited Time Offer</span>
+                    <span>Limited Offer</span>
                 </div>
                 <h2 className="font-heading text-2xl sm:text-3xl font-bold text-text_light dark:text-text_dark mb-3">
                     Current Campaign: Get Visibility Now
