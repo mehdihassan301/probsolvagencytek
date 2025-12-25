@@ -403,10 +403,10 @@ const PricingPage: React.FC<PricingPageProps> = ({ setPage }) => {
             <AnimatedCardBackground />
             <div className="relative z-10 text-center">
                 <div className="inline-block mb-4 px-4 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary font-bold text-xs uppercase tracking-wider">
-                    The Smart Choice
+                    The No-Brainer Investment
                 </div>
                 <h2 className="font-heading text-3xl md:text-4xl font-extrabold text-text_light dark:text-text_dark mb-2">
-                    The "No-Brainer" Investment
+                    The "Smart Choice" 
                 </h2>
                 <p className="text-lg text-subtext_light dark:text-subtext_dark max-w-2xl mx-auto mb-10">
                     Stop guessing. Start growing. Here is why smart founders choose ProbSolv over DIY.
