@@ -192,7 +192,7 @@ const VisibilityPage: React.FC<VisibilityPageProps> = ({ setPage }) => {
       {/* Hero */}
       <div className="text-center max-w-4xl mx-auto mb-16 animate-fade-in-up">
         <div className="inline-block mb-4 px-4 py-1 rounded-full bg-red-500/10 border border-red-500/30 text-red-500 font-bold text-sm animate-pulse">
-          Offer Ends December 25th
+          Offer Ends Soon!
         </div>
         <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl font-extrabold text-text_light dark:text-white leading-tight">
           Get Visibility Now.<br />
